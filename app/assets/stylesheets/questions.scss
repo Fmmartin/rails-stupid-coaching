@@ -1,0 +1,107 @@
+// Place all the styles related to the questions controller here.
+
+$gray: #F4F4F4;
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+}
+
+html {
+  box-sizing: border-box;
+  // This defines 1rem
+  font-size: 62.5%; // 1rem=10px
+  scroll-behavior: smooth;
+}
+* *::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+// Remove 100vw causing overflow bug
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.banner {
+  background: red;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.button {
+  box-sizing: border-box;
+  background-color: cornflowerblue;
+  border-width: 2px;
+  border-style: solid;
+  color: white;
+  font-weight: 400;
+}
+
+.answer {
+  background-color: lightyellow;
+}
+
+.question {
+  background-color: white;
+}
+
+.header {
+  width: 60%;
+  text-align: left;
+  font-size: 4.5rem;
+  font-weight: 400;
+  margin: 1.5rem 0 3rem;
+}
+
+.subheader {
+  text-align: left;
+  color: #474545;
+  font-size: 62.5%; // 1rem=10px
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.form {
+  width: 60%;
+  background-color: white;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
